@@ -1,0 +1,206 @@
+# DIFF BTW ANALYSIS AND ANALYTICS
+1. ANALYSIS: First, we will start with analysis.Consider the following. You have a huge data set containing data of various types. Instead of tackling the entire data and running the risk of becoming overwhelmed, you separate it into easier to digest chunks and study them individuallynd examine how they relate to other parts. And that's analysis in a nutshell. One important thing to remember, however, is that you perform analysis on things that have already happened in the past
+such as using an analysis to explain how a story ended the way it did or how there was a decrease in cells last summer.
+
+2. ANALYTICS generally refers to the future. Instead of explaining past events, it explores potential future ones. Analytics is essentially the application of logical and computational reasoning to the component parts obtained in an analysis.And in doing this, you are looking for patterns and exploring what you could do with them in the future. 
+Here, analytics branches off into two areas,
+    i Qualitative analytics: This is using your intuition and experience in conjunction with the analysis to plan your next business move.
+
+    ii: Quantitative analytics: This is applying formulas and algorithms to numbers you have gathered from your analysis. Here are a couple of examples. Say you are an owner of an online clothing store, you are ahead of the competition and have a great understanding of what your customers needs and wants are.
+
+# BUSINESS INTELLIGENCE
+1. Business intelligence (BI) techniques focus on the analysis and presentation of data to help organizations make informed decisions. Typical real-life applications of BI include inventory management, stock price analysis, and price optimization, as they involve analyzing large amounts of data to identify trends, patterns, and insights that support decision-making processes.  
+2. Business intelligence or BI, is the process of analyzing and reporting historical business data. After reports and dashboards have been prepared
+they can be used to make informed strategic and tactical business decisions by end users, such as the general manager. Concisely put, business intelligence aims to explain past events using business data.
+
+The job of a business intelligence analyst is a job that requires her to understand the essence of a business and strengthen that business through the power of data.
+
+how do we measure business performance? We start by collecting observations. For instance, you can observe variables such as sales volume or new customers who have enrolled in your website. Each monthly revenue or each new customer is considered a single observation.
+
+However, no mathematical manipulations can be applied to these observations. What we must do is quantify that information. Quantification is the process of representing observations as numbers. For instance, you can say your revenues from new customers for January, February and March were 100, 120 in $130 respectively
+while the corresponding number of new customers for the same three months were 10, 15, and 25.
+
+Fantastic. Next, let's discuss measure. A measure is the accumulation of observations to show some information. For example, if you total the revenues
+of all three months to obtain the value of $350, that would be a measure of the revenue of the first quarter of that year.
+
+Similarly, add together the number of new customers for the same period, 50, and you have another measure.
+
+Great. Now, are there other frequently used terms?
+
+Do you know what a metric is? A metric refers to a value that derives from the measures you have obtained and aims at gauging business performance or progress. If you estimate the average quarterly revenue per new customer which equals 350 divided by 50, that is $7. This is a metric,  it is not just a number, but a number that bears a business meaning.
+
+Metrics are very useful for comparisons. For instance, you can track the average quarterly revenue per new customer every three months, and thus compare your customer retention and spending every quarter.
+
+In a nutshell, your observations lead to measures, and your measures are used to create your metrics.
+
+Your metrics have business applications. However, in a real business where the number of observations is significantly larger, you can derive hundreds or sometimes even thousands of metrics. Can we keep track of all possible metrics we can extract from a data set? probably yes. Does it make sense to do that? No.
+
+What you need to do is choose the metrics that are tightly aligned with your business objectives. These metrics are called KPIs, Key Performance Indicators.
+
+Key because they are related to your main business goals. Performance because they show how successfully you have performed within a specified timeframe and indicators because they are values or metrics that indicate something related to your business performance.
+
+For instance, a metric could indicate the traffic of a page from your website that was visited by any type of user. A KPI instead would show the volume of the same traffic, however generated only from users who have clicked on the link provided in your ad campaign. Thus, you could check if the ads you have sent are a source of motivation for your customers to click on the provided link and get to the specified page of your website, which will determine whether you will continue to spend on ads or not.
+
+
+ 
+BIG DATA: 
+Examples of big data can be text data, digital image data, digital video data, digital audio data, and more.
+
+Consequently, with a larger amount of data types comes a wider range of data cleansing methods. There are techniques that verify that a digital image observation is ready for processing and specific approaches exists that can ensure the audio quality of your file is adequate to proceed.
+
+How do we deal with missing values?
+
+This step is a crucial one, as big data has big missing values, which is a big problem. Text data mining represents the process of deriving valuable unstructured data from a text.
+
+Let's elaborate.
+Think of the huge amount of text that is stored in digital format. Well, there are many scientific projects and progress which aim to extract specific text information from digital sources. For instance, you may have a database which has stored information from academic papers about marketing expenditure, the main topic of your research. You could find the information you need without much of a problem if the number of sources and the volume of text stored in your database was low enough.
+
+Often though the data is huge, it may contain information from academic papers, blog articles, online platforms, private Excel files, and more.
+This means you'll need to extract marketing expenditure information from many sources.
+
+In other words, big data, not an easy task, which has led to academics and practitioners developing methods to perform text data mining.
+
+Cool, what else?
+
+Data masking: If you want to maintain a credible business or governmental activity, you must preserve confidential information. However, when personal information is shared online, it doesn't mean that it can't be touched
+
+or used for analysis. Instead, you must apply some data masking techniques, so you can analyze the information without compromising private details
+
+Like data shuffling, data masking can be quite complex. It conceals the original data with random and false data allowing you to conduct analysis and keep all confidential information in a secure place. An example of applying data masking to big data is through what we called confidentiality preserving data mining techniques.
+
+ # Techniques for working with Traditonal methods
+ 1. Regression analysis is a statistical technique used to model and quantify causal relationships between variables. It helps to determine the extent to which changes in one or more independent variables can predict or explain changes in a dependent variable. In business and various other fields, regression analysis is often used for forecasting, understanding relationships between variables, and identifying causal effects, making it the appropriate choice for quantifying causal relationships among the given options.
+
+ 2. Factor analysis is a technique used to reduce the dimensionality of a statistical problem by identifying a smaller number of underlying factors that can explain the correlations among a larger set of observed variables. This method helps to simplify complex datasets, making them more manageable and easier to analyze.
+
+ 3. Time-series analysis is a statistical technique that involves examining data points collected sequentially over time. In this method, values are plotted against time, which is always represented on the horizontal axis. Time-series analysis is used to identify trends, patterns, and seasonal variations in the data, as well as to forecast future values. The other techniques listed—regression analysis, factor analysis, and cluster analysis—are not specifically associated with plotting values against time.
+
+ 4. Cluster analysis is a technique used to group data points with similar characteristics together. This method involves partitioning the data into clusters or groups based on their similarity, making it easier to analyze and understand the relationships between data points. Cluster analysis is the appropriate technique to apply when data needs to be divided into a few groups. Factor analysis is used for dimensionality reduction, while time-series analysis is used for examining data points collected sequentially over time. When the data is divided into a few groups, you should apply Cluster analysis
+
+
+
+# MACHINE LEARNING
+
+Creating an algorithm, which a computer then uses
+
+to find a model that fits the data as best as possible.
+
+And makes very accurate predictions based on that.
+
+And how is that different from conventional methods?
+
+Well, we don't give the machine instructions
+
+on how to find that model.
+
+We provide it with algorithms
+
+which give the machine directions
+
+on how to learn on its own.
+
+So, how can we describe a machine learning algorithm
+
+in a few words?
+
+A machine learning algorithm
+
+is like a trial and error process,
+
+but the special thing about it
+
+is that each consecutive trial
+
+is at least as good as the previous one.
+
+Technically speaking, there are four ingredients,
+
+data, model, objective function, and optimization algorithm.
+
+
+# Real life Example of Machine Learning
+One example is the financial sector and banks in particular.
+
+They have ginormous data sets of credit card transactions.
+
+Unfortunately, banks are facing issues with fraud daily.
+
+They are tasked with preventing fraudsters
+
+from acquiring customer data
+
+and in order to keep customers funds safe,
+
+they use machine learning algorithms.
+
+They take past data,
+
+and because they can tell the computer
+
+which transactions in their history were legitimate,
+
+and which were found to be fraudulent,
+
+they can label the data as such.
+
+So, through supervised learning,
+
+they train models that detect fraudulent activity.
+
+When these models detect even the slightest probability
+
+of theft, they flag the transactions
+
+and prevent the fraud in real time.
+
+Although no one in the sector has
+
+reached a perfect solution,
+
+the impact of machine learning algorithms
+
+has been groundbreaking.
+
+Another example of using supervised machine learning
+
+with labeled data can be found in client retention.
+
+A focus of any business, be it a global supermarket chain
+
+or an online clothing shop, is to retain its customers.
+
+But, the larger a business grows,
+
+the harder it is to keep track of customer trends.
+
+A local corner shop owner will recognize
+
+and get to know their most loyal customers.
+
+They will offer them exclusive discounts
+
+to thank them for their custom,
+
+and, by doing so, keep them returning.
+
+On a larger scale, companies can use machine learning
+
+and pass label data to automate the practice.
+
+And with this,
+
+they can know which customers may purchase goods from them.
+
+This means the store can offer discounts
+
+and a personal touch, in an efficient way
+
+minimizing marketing costs and maximizing profits.
+
+With this video,
+
+we close the two biggest rows of our infographic,
+
+having explained the main techniques used for working
+
+with data, and data science, and their application.

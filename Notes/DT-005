@@ -1,0 +1,176 @@
+# STANDARDIZATION
+Every distribution can be standardized. Say the mean and the variance of a variable are mu and sigma squared respectively. Standardization is the process of transforming this variable
+to one with a mean of zero and a standard deviation of one. The standardized variable is called the Z-score and is equal to the original variable minus its mean
+divided by its standard deviation.
+
+
+# central limit theorem
+
+STATES THAT
+
+that no matter the underlying distribution of the data set
+
+distribution of the sample means would be normal
+
+with a mean equal to the original mean,
+
+and a variance equal to the original variance
+
+divided by the sample size.
+
+he central limit theorem allows us
+
+to perform tests, solve problems,
+
+and make inferences using the normal distribution,
+
+even when the population is not normally distributed.
+
+
+The standard error is the standard deviation
+
+of the distribution formed by the sample means.
+
+In other words,
+
+the standard deviation of the sampling distribution.
+
+
+Note that it decreases as the sample size increases.
+
+This makes sense, as bigger samples
+
+give a better approximation of the population.
+
+
+
+
+estimator of a population parameter.
+
+It is an approximation
+
+depending solely on sample information.
+
+A specific value is called an estimate.
+
+There are two types of estimates.
+
+Point estimates and confidence interval estimates.
+
+A point estimate is a single number,
+
+while a confidence interval, naturally, is an interval.
+
+The two are closely related
+
+The two are closely related.
+
+In fact, the point estimate is located exactly in the middle
+
+of the confidence interval.
+
+However, confidence intervals provide much more information
+
+and are preferred when making inferences.
+
+
+An unbiased estimator has an expected value
+
+equal to the population parameter.
+
+
+
+It is enough to know that most efficient
+
+means the unbiased estimator with the smallest variance.
+
+A final note worth making is about
+
+the difference between estimators and statistics.
+
+The word statistic is the broader term.
+
+A point estimate is a statistic.
+
+
+Common confidence levels are 90%, 95%, and 99%
+
+with respective alphas of 10%, 5%, and 1%.
+
+Another way to put the value of alpha
+
+is 0.1, 0.05, and 0.01 respectively.
+
+Keep in mind that a 95% confidence interval
+
+means you are sure that in 95% of the cases,
+
+the true population parameter would fall
+
+into the specified interval.
+
+
+Let's say that we wanna find the values
+
+for the 95% confidence interval.
+
+Alpha is 0.05.
+
+Therefore, we are looking for z of alpha divided by two,
+
+or 0.025.
+
+In the table, this will match the value
+
+of one minus 0.025, or 0.9775.
+
+The corresponding z comes from the sum of the row
+
+and column table headers associated with this cell.
+
+In our case, the value is 1.9 plus 0.06, or 1.96.
+
+A commonly used term for the z is critical value.
+
+ So we have found the critical value
+
+for this confidence interval.
+
+Now, we can easily substitute in the formula.
+
+The final confidence interval becomes 94,833 to 105,568.
+
+The interpretation is the following.
+
+We are 95% confident that the average data scientist salary
+
+will be in the interval $94,833 and $105,568
+
+
+
+So basically, the confidence intervals
+
+could be summarized as follows.
+
+The true population mean falls in the interval defined
+
+by the sample mean plus minus the margin of error.
+
+Now, we get to the core of this lesson.
+
+Getting a smaller margin of error means
+
+that the confidence interval would be narrower.
+
+As we want a better prediction, it is in our interest
+
+to have the narrowest possible confidence interval.
+
+The best part is that we can control the margin of error.
+
+The statistic and the standard deviation
+
+are in the numerator, so smaller statistics and
+
+smaller standard deviations will reduce the margin of error.
+

@@ -1,0 +1,132 @@
+# What to expect and what to look for
+
+Data architect and data engineer
+
+and big data architect and big data engineer respectively
+
+are crucial titles on the market.
+
+A person in these roles is regarded
+
+as a very important part of the entire process
+
+of solving a data science or a business task.
+
+A data architect creates databases from scratch.
+
+They design the way data will be retrieved,
+
+processed and consumed.
+
+The tasks of the data engineer step on the work
+
+of the data architect.
+
+His primary job responsibility
+
+is to further process the obtained data
+
+so that it is ready for analysis.
+
+So the result of his work
+
+is something analysts and people in analytics positions
+
+will heavily rely on: a clean and organized dataset.
+
+Great.
+
+In fact, the data in a database is not created once
+
+and for all.
+
+You have a certain flow into and from the database.
+
+And there is a person who handles this control of data.
+
+Her position is database administrator
+
+and she mainly works with traditional data.
+
+Needless to say, administration of big data
+
+A BI analyst will do analyses and reporting
+
+of past historical data.
+
+What a BI consultant does exactly is vague though.
+
+BI consultants are often external BI analysts.
+
+nally, a BI developer is a person
+
+who handles more advanced programming tools,
+
+such as Python and especially SQL
+
+in order to create analyses specifically designed
+
+for the company.
+
+It is the third most frequently encountered job position
+
+in the BI team of a firm
+
+A person who employs traditional statistical methods
+
+or unconventional machine learning techniques
+
+for making predictions
+
+could still be labeled a data scientist.
+
+data analyst is the job title
+
+for those who prepare more advanced types of analyses
+
+and do the basic part of the predictions
+
+of the data science team.
+
+Finally, a machine learning engineer.
+
+This job is tough to do but easy to classify.
+
+It refers to those who are looking for ways
+
+to apply state-of-the-art computational models
+
+developed in the field of machine learning
+
+into solving complex data science and business tasks.
+
+
+A data engineer's primary role is to design, build, and manage data pipelines, transforming and processing raw data into a format suitable for analysis. They work closely with data architects, who design the underlying data structure, and ensure that data is efficiently and accurately processed for downstream analytics tasks. In contrast, a data scientist focuses on analyzing data and building models, a database administrator is responsible for managing and maintaining databases, and a BI developer designs and implements BI solutions to facilitate data-driven decision making.
+
+
+
+Not every type of analysis can be considered business
+
+intelligence though, BI deals with the explanation
+
+of past events using data driven approaches
+
+and reaching data driven conclusions.
+
+In contrast, a business analytics approach,
+
+which is not data analytics and therefore not BI,
+
+is SWOT analysis.
+
+SWOT analysis is a famous type of qualitative analysis
+
+contributing to the strategic decision making of a company.
+
+It points out the strengths and weaknesses
+
+of running a particular business, so a SWOT analysis
+
+can improve the firm's strategy,
+
+but it is not a data driven analysis

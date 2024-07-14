@@ -1,0 +1,140 @@
+# DATA SCIENCE
+The same way probability sets the foundation for statistics, statistics constructs the pillars on which data science is built. The more general the issues,
+the more we rely on the simpler concepts from probability. And the more concrete our interests are, the more we need to delve into data science.
+
+In data analysis, we usually try to analyze past data
+
+and use some insight we find
+
+to make reasonable predictions about the future.
+
+Furthermore, in mathematical modeling,
+
+we often tend to run artificial simulations
+
+to see how well our predictions match up
+
+to various possible future outcomes. One such approach is called a Monte Carlo simulation which  consists of. We generate artificial data
+
+with which to test the predictive power
+
+of our mathematical models.
+
+Usually, the data is not completely arbitrary
+
+but rather follows certain restrictions we provide. Most machine learning is an extremely fast-paced
+
+trial and error process
+
+where the computer adjusts its expectations
+
+as it goes through the data. Essentially, the more predictions it makes,
+
+the more precise they become. Each prediction has a probability of being incorrect.
+
+That is because there are unpredictable events
+
+that can occur in real life,
+
+earthquakes, volcanic eruptions
+
+or sudden scientific breakthroughs
+
+can completely change the anticipated course of events.
+
+Thus, even data scientists
+
+assigned probabilities to their predictions,
+
+however accurate they may be.
+
+In essence, data science is an expansion of probability,
+
+statistics, and programming
+
+that implements computational technology
+
+to solve more advanced questions.
+
+# STATISTICS
+A population is the collection of all items of interest to our study and is usually denoted with an uppercase N. The numbers we've obtained when using a population
+are called #PARAMETERS.
+
+A sample is a subset of the population and is denoted with a lowercase n. And the numbers we've obtained when working with a sample are called #STATISTICS
+Time and resources are the main reasons
+
+ 
+samples are key to accurate statistical insights. They have two defining characteristics, randomness and representativeness. A sample must be both random and representative for an insight to be precise.
+
+A random sample is collected when each member of the sample is chosen from the population strictly by chance or at random
+
+A representative sample is a subset of the population that accurately reflects the members of the entire population.
+ For instance lets say our survey is about job prospect, of  Newyork students who eat in the university canteen, we can walk to the any canteen inside the school to draw out sample, that is REPRESENTATIVE, Another instance is when we go to the students database and start drawaing sapmle at random thats, randomness
+
+ lets say You are trying to estimate the average valuation of start-ups in the USA. Imagine you are able to visit 200 start-ups in Silicon Valley in a random manner. What is a possible problem of your study? 
+ Explanation: You were estimating a statistic for all start-ups in the USA. However, your sample was taken only from startups in Silicon Valley. While this may be a proxy for California, it does not represent the other 49 states. Therefore, the sample is not representative.
+
+# CLASSIFICATION OF DATA
+
+We can classify data in two main ways based on its TYPES and on its MEASUREMENT LEVEL. Let's start from the types of data we can have.
+There is CATEGORICAL and NUMERICAL data.
+
+Categorical data describes categories or groups. One example is a variable represents the gender of a person? car brands like Mercedes, BMW and Audi.They show different categories.
+
+Another instance is answers to yes and no questions. If I ask questions like, Are you currently enrolled in a university or do you own a car? Yes and no would be the two groups of answers that can be obtained. This is categorical data.
+
+Numerical data, on the other hand, as its name suggests, represents numbers. It is further divided into two subsets. DISCREET AND  CONTINOUS
+
+DISCREET data can usually be counted in a finite matter. A good example would be the number of children that you want to have.
+
+Even if you don't know exactly how many, you are absolutely sure that the value will be an integer such as zero, one, two, or even 10.
+Another instance is grades on the SAT exam. You may get 1,000, 1,560, 1,570 or 2,400. What is important for a variable to be defined as discrete is that you can imagine each member of the data set. Knowing that SAT scores range from 600 to 2,410 points separate all possible scores that can be obtained is key. It's easier to understand discrete data by saying it's the opposite of continuous data.
+
+CONTINOUSs data is infinite and impossible to count. For instance, your weight can take on every value in some range. Apart from weight, other measurements are also continuous. Examples are height, area, distance and time. All of these can vary by infinitely smaller amounts,
+
+
+Now lets talk about Levels of Measurement. These can be split into two groups: QUALITATIVE  and QUANTITATIVE DATA
+
+QUALITATIVE DATA can be NOMINAL or ORDINAL.
+NOMINAL  variables are like the categories, e.g gender like male female. They aren't numbers and cannot be ordered. 
+ORDINAL data, on the other hand, consists of groups and categories which follow a strict order. Imagine you have been asked to rate your lunch and the options are disgusting, unappetizing, neutral, tasty, and delicious. Although we have words and not numbers, it is obvious that these preferences are ordered from negative to positive. Thus, the level of measurement is qualitative, ordinal.
+
+QUANTITATIVE variables are also split into two groups, INTERNAL and RATIOS. Intervals and ratios are both represented by numbers, but have one major difference.
+Ratios have a true zero and intervals don't. Ratios name comes from the fact that they can represent ratios of things. For instance, if I have two apples and you have six apples,
+you would have three times as many as I do. Intervals are not as common.Temperature is the most common example of an interval variable.
+
+
+In our example, this resulted in two new distributions,
+
+one with a mean of 470
+
+and a standard deviation of 140
+
+and one with a mean of 960, and a standard deviation of 140.In our example, this resulted in two new distributions,
+
+one with a mean of 470
+
+and a standard deviation of 140
+
+and one with a mean of 960, and a standard deviation of 140.
+
+
+we can change the standard deviation and see what happens.
+
+This time, the graph is not moving
+
+but is rather reshaping a lower standard deviation results
+
+in a lower dispersion
+
+so more data in the middle and thinner tails.
+
+On the other hand
+
+a higher standard deviation will cause the graph to flatten
+
+out with less points in the middle
+
+and more to the end, or in statistics jargon.
+
+Fatter tails.

@@ -1,0 +1,5 @@
+# Sample Case :
+How many different burger menus can we order from a McDonald's Restaurant if we have a choice of 8 burgers, 3 sizes of fries and 5 different drinks, assuming a menu consist of a burger, some fries and a drink?
+Explanation: We have 3 positions and we have different-sized sample spaces for each one. As mentioned in the lecture, we treat the different parts of the menu as positions.
+For each of the 3 positions, we have a different number of possible choices: 8 for the burgers, 3 for the fries and 5 for the beverages. 
+Therefore, we have 8×3×5, or 120 different possible menus to chose from.

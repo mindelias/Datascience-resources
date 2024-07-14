@@ -1,0 +1,62 @@
+# NULL AND HYPOTHESIS
+A hypothesis is an idea that can be tested.
+An example may be, if we say would the NIGERIA do better or worse under a ATIKU'S administration compared to a TINUBU administration?Statistically speaking, this is an idea,but there is no data to test it.Therefore, it cannot be a hypothesis of a statistical test.
+
+we may compare different NG presidencies that have already been completed, such as the buharis administration compared to a Jonathan's administration
+
+
+You want to check if your height is above average, compared to your classmates. State the null and alternative hypotheses of this test.
+ans: The null is the status quo (you are 'shorter'), while the alternative is the 'change or innovation' (you are looking for this answer). Therefore, the null hypothesis of the test is ‘lower or equal’. You have to include ‘equal’ in the null hypothesis, as conventionally, the equality sign is always included in the null.
+
+# SIGNIFICANCE LEVEL
+The significance level is denoted by alpha and is the probability of rejecting the null hypothesis if it is true. So the probability of making this error, typical values for alpha are 0.01, 0.05, and 0.1.
+
+# Z TEST
+if the sample mean is close enough to the hypothesized mean,
+
+then Z will be close to zero,
+
+otherwise it will be far away from it.
+
+Naturally, if the sample mean is
+
+exactly equal to the hypothesized mean, Z will be zero.
+
+In all these cases, we would accept the null hypothesis.
+how big should Z be for us to reject the null hypothesis? When we calculate Z, we will get a value.
+
+If this value falls into the middle part
+
+then we cannot reject the null.
+
+If it falls outside, in the shaded region
+
+then we reject the null hypothesis.
+
+That is why the shaded part is called rejection region.
+
+
+# HYPOTHESIS ERROR
+We can have two types of errors,type one error and type two error.
+TYPEONE error is when you reject a true null hypothesis.It is also called a FALSE POSITIVE. The probability of making this error is alpha, the level of significance.
+
+TYPETWO error is when you accept a false null hypothesis. It is also called a FALSE NEGATIVE. The probability of making this error is denoted by beta. Beta depends mainly on sample size
+and magnitude of the effect. So if your topic is difficult to test due to hard sampling or the effect you are looking for is almost negligible, it is more likely to make this type of error.
+
+We should also mention that the probability of rejecting a false null hypothesis is equal to one minus beta.
+Researcher's goal is to reject a false null hypothesis, therefore, one minus beta is called the power of the test.
+
+
+# P-VALUE
+If our Z score was 2.12, We look for the value that corresponds to 2.12 on Ztable and find that it is 0.983. The P value for a one-sided test is one minus the number
+
+1. If we have a p-value LOWER THAN THE  significance level,  we reject the null hypothesis.
+
+2. ACCEPT If the absolute value of the T score is LOWER than the statistic from the table,
+
+3. REJECT if If the absolute value of the T score is GREATER than the statistic from the table,
+
+ 
+
+
+

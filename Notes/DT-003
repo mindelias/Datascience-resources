@@ -1,0 +1,114 @@
+# VARIATIONS , PERMUTATIONS AND COMBINATIONS
+Okay, we use permutations with variations when we must arrange a set of objects. In such cases, the order in which we pick them is crucial. The major difference between the two is that, in permutations, you always arrange the entire set of elements in the sample space. For instance, we would use permutations when we need to arrange the four runners we have already chosen for our relay. We have four runners and four positions. So we rely on permutations.
+
+If, however, we had to pick four out of six people on the team and then decide who runs which leg, we would require using variations.
+
+Alternatively, if we only care about which four out of the six runners made it into the team, we would be dealing with combinations. In this instance, we do not care who runs which leg. So order is irrelevant.
+
+Another important topic we discussed is that there are two types of variations and combinations, with and without repetition. When we explore those without repetition, we see a clear relationship between permutations, variations, and combinations.
+
+The number of combinations equals the number of variations divided by the number of permutations. That is because we count all the permutations of a given set of numbers as a single combination, but as separate variations. We also define formulas we use to compute their values.
+
+            P = n!
+
+            V = n!/(n - p)!
+
+            And C = n!/p! x (n - p)!.
+
+            Recall that these formulas change
+
+            when we include repeating values.
+
+            V = n to the power of p.
+
+            And C = (n + p - 1)!/p!(n-1)!
+
+# Example
+An example would illustrate this better. Imagine you conducted a survey where 100 men and women of all ages were asked if they eat meat. The results are summarized in the table on the screen. We see 15 of the 47 women that participated are vegetarian as are 29 out of the 53 men.
+Now, if A represents being vegetarian and B represents being a woman then P of A, given B and P of B, given Aexpress different events.
+
+The former equals 15 over 47 and represents the likelihood of a woman being vegetarian. While the latter equals 15 over 44 and expresses the likelihood of a vegetarian being a woman. Since 15 over 44 is greater than 15 over 47, it is more likely for a vegetarian to be female than for of a woman not to eat meat.
+
+we can introduce an important concept,the law of total probability.
+Imagine A is the union of some finitely many events, B1, B2 and so on. This law dictates that the probability of A is the sum of all the conditional probabilities of A given some B multiplied by the probability of the associated B.nLet us go back to the survey example.
+The probability of being vegetarian equals the sum of the probability of being a vegetarian given the person is male times the probability of being male and the probability of being a vegetarian given the person is female multiplied by the probability of being female.
+If we plug in values from the table, we get the probability of being vegetarian equals 29 over 53, times 53 over 100, plus 15 over 47, times 47 over 100.
+That's 44 over 100 or 0.44. Therefore, according to the survey, there is a 44% chance of someone being vegetarian.We can refer back to the table and confirm the probability of being vegetarian is indeed 0.44.
+
+# ADDICTIVE LAW
+The additive law states that the probability of the union of two sets is equal to the sum of the individual probabilities of each event minus the probability of their intersection. p(A U B) = P(A)+ P(B) - P(A n B)
+
+If we rearrange the Additive Law, we get that P(Intersection) = P(A) + P(B) - P(Union).  
+Great.
+
+# Multiplication rule: 
+The probability of event A, given B equals the probability of the intersection of A and B over the probability of event B occurring. We can multiply both sides of the equation by P of B to get the probability of the intersection of A and B equals the probability
+    P(A | B) * P(B) = P(A n B)
+
+# The Bayes' rule.
+People also refer to it as Bayes' Theorem, or Bayes' Law. For starters, take two events, A and B. According to the conditional probability formula, the conditional probability of A given B equals the probability of their intersection over the probability of event B.
+Using the multiplication rule, we can transform the numerator of this fraction to get the probability of the intersection of A and B equals the conditional probability of getting B given A times the probability of getting A.
+Therefore, the conditional probability of getting A given B is equal to the following fraction.
+
+The conditional probability of getting B given A times the probability of A divided by the probability of B. This equation is known as  Bayes' Theorem.
+    P(A|B) = P(B|A) * P(A)   
+             -------------
+                 P(B)    
+
+    P(B|A) = P(A|B) * P(B)
+             -------------
+                 P(A) 
+
+One of the most prominent examples of using Bayes' Rule is in medical research when trying to find a causal relationship between symptoms. Knowing both conditional probabilities between the two helps us make more reasonable arguments about which one causes the other. For instance, there is certain correlation between patients with back problems and patients wearing glasses. More specifically, 67% of people with spinal problemwear glasses while only 41% of patients with eyesight issues have back pains. These conditional probabilities suggest that it is much more likely for someone with back problems to wear glasses
+than the other way around.
+
+
+# Symmetry
+    C^n    =  C^n
+      p          n-p
+
+To sum up, when P is greater than n over 2, n minus p would be smaller than p. In such instances, we could apply symmetry to avoid calculating factorials of large numbers.
+Generally, we use symmetry to simplify the calculations the calculations we made
+
+# Probability Distributions
+This is simply probabilities that measure the likelihood of an outcome depending on how often it is featured in the sample space.
+
+# MEAN AND VARIANCE
+The mean of the distribution is its average value. Variance (σ2), on the other hand is essentially how spread out the data is. We measure this spread by how far away
+from the mean all the values are. The more dispersed the data is the higher its variance will be. A contanst relatioship between mean and variance is 
+    ==> σ2 = E[(Y−μ)2] = √E(Y2)−μ2
+Standard deviation is simply the positive square root of variance.(σ=√σ2) . One idea, which we will use a lot, is that any value between mu minus sigma and mu plus sigma falls within one standard deviation away from the mean. The more congested the middle of the distribution, the more data falls within that interval. Similarly, the less data that falls within the interval the more dispersed the data is. we are most interested in the mean, variance and type of the distribution.
+
+# Types of Distribution
+Certain distributions share features, Some like rolling a die or picking a card, have a finite number of outcomes.They follow *Discrete distributions, 
+Others like, recording time and distance in track and field, have infinitely many outcomes. They follow Continuous distribution
+
+# Discrete distributions: 
+So we looked at problems relating to drawing cards from a deck or flipping a coin.Both examples show events where all outcomes are equally likely.
+Such outcomes are called equiprobable, and these sorts of events follow a UNIFORM DISTRIBUTION
+
+Then there are events with only two possible outcomes, true or false.They follow a BERNOULLI DISTRIBUTION, Regardless of whether one outcome is more likely to occur, any event with two outcomes can be transformed into a Bernoulli event.
+
+POISSON DISTRIBUTION is  used  when we want to test out how unusual an event frequency is for a given interval. For example, imagine we know that so far LeBron James has averaged 35 points per game during the regular season. We want to know how likely it is that he will score 12 points in the first quarter of his next game.Since the frequency changes, so should our expectations for the outcome. Using the Poisson distribution, we are able to determine the chance of LeBron scoring exactly 12 points for the specified time interval.
+
+# Continuous distributions.
+The first one we will talk about is the NORMAL DISTRIBUTION. The outcomes of many events in nature closely resembled this distribution, hence the name normal.
+For instance, according to numerous reports throughout the last few decades, the weight of an adult male polar bear is usually around 500 kilograms.
+However, there have been records of individual species weighing anywhere between 350 kilograms and 700 kilograms. Extreme values like 350 and 700 are called OUTLIERS and do not feature very frequently in NORMAL DISTRIBUTION
+
+Sometimes we have limited data for events that resemble a normal distribution. In those cases, we observe the STUDENT'S-T DISTRIBUTION. It serves as a small sample approximation of a Normal distribution. Another difference is that the STUDENT'S-T accommodates extreme values significantly better.
+
+Another Continuous distribution we would like to introduce, is the CHI-SQUARED DISTRIBUTION. It is the first asymmetric Continuous distribution we are dealing with as it only consists of non-negative values. Graphically, that means that the Chi-Squared distribution always starts from zero on the left.
+Depending on the average and maximum values within the set, the curve of the Chi-Squared graph is typically skewed to the right. Unlike the previous two distributions, the Chi-Squared does not often mirror real-life events. However, it is often used in hypothesis testing to help determine goodness of fit.
+
+The next distribution on our list is the EXPONENTIAL DISTRIBUTION. The Exponential distribution is usually present when we are dealing with events that are rapidly changing early on. An easy to understand example is how online news articles generate hits. They get most of their clicks when the topic is still fresh.
+The more time passes, the more irrelevant it becomes and interest dies off. Generally, we can take the natural logarithm of every set of an exponential distribution and get a normal distribution.
+
+The last Continuous distribution is  LOGISTIC  DISTRIBUTION. We often find it useful in forecast analysis when we try to determine a cutoff point for a successful outcome.For instance, take a competitive Esport like Dota 2. We can use the Logistic distribution to determine how much of an in-game advantage at the 10-minute mark is necessary to confidently predict victory for either team. Just like with other types of forecasting, our predictions would never reach true certainty,
+
+
+# RELATIOSHIP BTW STATICTICS AND PROBABILITY
+ The term statistics is the sample equivalent of characteristics for a population data set. Say if we somehow manage to record the eye color of everybody in the entire world and 65% are brown. That is a characteristic of the human population. However, if we make the plausible and much more reasonable choice of looking at maybe 1000 people, then if 60% of them are brown eyed, that is a statistic. The field of statistics focuses predominantly on samples and incomplete data.
+
+ The three crucial requirements for conducting successful hypothesis testing are knowing the mean, variance, and type of the distribution. With the help of these three and some formulas, we can validate similar statements, again to a specific degree of certainty.
+
